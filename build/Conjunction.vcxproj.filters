@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>Characters\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Level.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlanetLevel.cpp">
+      <Filter>Levels\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpacePlayer.cpp">
+      <Filter>Characters\Player\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlanetPlayer.cpp">
+      <Filter>Characters\Player\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GlobalVariables.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameState.cpp">
+      <Filter>State-Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MenuState.cpp">
+      <Filter>State-Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameplayState.cpp">
+      <Filter>State-Game\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainMenuState.cpp">
+      <Filter>State-Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlanetGameplayState.cpp">
+      <Filter>State-Game\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpaceLevel.cpp">
+      <Filter>Levels\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpaceGameplayState.cpp">
+      <Filter>State-Game\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WindowsConsole.cpp">
+      <Filter>Global\WindowsConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PauseMenuState.cpp">
+      <Filter>State-Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReallocState.cpp">
+      <Filter>Characters\Player\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Room.cpp">
+      <Filter>Levels\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomGameplayState.cpp">
+      <Filter>State-Game\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomBuilding.cpp">
+      <Filter>Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Enemy.cpp">
+      <Filter>Characters\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill.cpp">
+      <Filter>Characters\Player\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Attributes.cpp">
+      <Filter>Characters\Player\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Game.cpp" />
+    <ClCompile Include="..\src\MusicManager.cpp">
+      <Filter>Music Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinystr.cpp">
+      <Filter>Global\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxml.cpp">
+      <Filter>Global\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxmlerror.cpp">
+      <Filter>Global\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxmlparser.cpp">
+      <Filter>Global\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Projectile.cpp">
+      <Filter>Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MeleeSkill.cpp">
+      <Filter>Characters\Player\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PassiveSkill.cpp">
+      <Filter>Characters\Player\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ProjectileSkill.cpp">
+      <Filter>Characters\Player\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StateMachineBase.cpp">
+      <Filter>State-AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InteractiveBuilding.cpp">
+      <Filter>Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactoryBuilding.cpp">
+      <Filter>Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlanetController.cpp">
+      <Filter>State-Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerController.cpp">
+      <Filter>State-Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LaunchBuilding.cpp">
+      <Filter>Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IdleState.cpp">
+      <Filter>State-AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WanderState.cpp">
+      <Filter>State-AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DieState.cpp">
+      <Filter>State-AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ApproachState.cpp">
+      <Filter>State-AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AttackState.cpp">
+      <Filter>State-AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipRoom.cpp">
+      <Filter>Levels\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactoryRoom.cpp">
+      <Filter>Levels\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Part.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CompletePart.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Blueprint.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomPlayer.cpp">
+      <Filter>Characters\Player\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlanetProp.cpp">
+      <Filter>Levels\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomFlare.cpp">
+      <Filter>Levels\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnimationState.cpp">
+      <Filter>State-Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerWalkState.cpp">
+      <Filter>State-Animation\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerIdleState.cpp">
+      <Filter>State-Animation\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerShootState.cpp">
+      <Filter>State-Animation\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Explosions.cpp">
+      <Filter>Explosions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DeadState.cpp">
+      <Filter>State-AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreditsState.cpp">
+      <Filter>State-Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Resource.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DarkMatter.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MetalScrap.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Carbon.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameOverMenu.cpp">
+      <Filter>State-Game\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Game.h" />
+    <ClInclude Include="..\src\Player.h">
+      <Filter>Characters\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Level.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlanetLevel.h">
+      <Filter>Levels\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpacePlayer.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlanetPlayer.h">
+      <Filter>Characters\Player\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GlobalVariables.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameState.h">
+      <Filter>State-Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MenuState.h">
+      <Filter>State-Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameplayState.h">
+      <Filter>State-Game\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainMenuState.h">
+      <Filter>State-Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlanetGameplayState.h">
+      <Filter>State-Game\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpaceLevel.h">
+      <Filter>Levels\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpaceGameplayState.h">
+      <Filter>State-Game\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WindowsConsole.h">
+      <Filter>Global\WindowsConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PauseMenuState.h">
+      <Filter>State-Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReallocState.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Room.h">
+      <Filter>Levels\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomGameplayState.h">
+      <Filter>State-Game\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomBuilding.h">
+      <Filter>Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Enemy.h">
+      <Filter>Characters\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Attributes.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Global\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MusicManager.h">
+      <Filter>Music Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinystr.h">
+      <Filter>Global\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinyxml.h">
+      <Filter>Global\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Projectile.h">
+      <Filter>Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MeleeSkill.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PassiveSkill.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ProjectileSkill.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StateMachineBase.h">
+      <Filter>State-AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinyxmls.h">
+      <Filter>Global\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InteractiveBuilding.h">
+      <Filter>Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Buildings.h">
+      <Filter>Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FactoryBuilding.h">
+      <Filter>Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gamestates.h">
+      <Filter>State-Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlayerController.h">
+      <Filter>State-Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlanetController.h">
+      <Filter>State-Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\controllers.h">
+      <Filter>State-Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LaunchBuilding.h">
+      <Filter>Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Levels.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IdleState.h">
+      <Filter>State-AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WanderState.h">
+      <Filter>State-AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DieState.h">
+      <Filter>State-AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ApproachState.h">
+      <Filter>State-AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AttackState.h">
+      <Filter>State-AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AIStates.h">
+      <Filter>State-AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\skills.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EquipRoom.h">
+      <Filter>Levels\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FactoryRoom.h">
+      <Filter>Levels\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Part.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CompletePart.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Blueprint.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomPlayer.h">
+      <Filter>Characters\Player\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlanetProp.h">
+      <Filter>Levels\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpacePlayerEssentials.h">
+      <Filter>Characters\Player\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomFlare.h">
+      <Filter>Levels\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Rooms.h">
+      <Filter>Levels\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AnimationState.h">
+      <Filter>State-Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlayerWalkState.h">
+      <Filter>State-Animation\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animations.h">
+      <Filter>State-Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlayerIdleState.h">
+      <Filter>State-Animation\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlayerShootState.h">
+      <Filter>State-Animation\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Explosions.h">
+      <Filter>Explosions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DeadState.h">
+      <Filter>State-AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CreditsState.h">
+      <Filter>State-Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DarkMatter.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Resources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MetalScrap.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Carbon.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameOverMenu.h">
+      <Filter>State-Game\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Characters">
+      <UniqueIdentifier>{0bfa87bb-f395-469d-a47b-51fdc79461d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters\Player">
+      <UniqueIdentifier>{ff42c993-b098-4309-bda9-0462123167a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters\NPC">
+      <UniqueIdentifier>{59af8ba1-2f9e-45f1-abed-299e0d65eee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters\Player\Space">
+      <UniqueIdentifier>{dfaf27b8-1e91-465c-b349-55909caff0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters\Player\Planet">
+      <UniqueIdentifier>{cbc292e6-7a69-494b-9a84-d1f4b6841f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{f1f8f45e-e753-4355-826e-e01e02048491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildings">
+      <UniqueIdentifier>{17a70661-1861-4059-b2a1-d1e4d16c1131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projectile">
+      <UniqueIdentifier>{79f24a68-a649-4731-ab2b-443325b5c63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State-AI">
+      <UniqueIdentifier>{afdb4e24-8bdc-4be9-814d-80a4d8cb7573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State-Game">
+      <UniqueIdentifier>{9819cc97-9036-4403-ba57-51339fd21bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State-Game\Menu">
+      <UniqueIdentifier>{2618da58-06e0-49e7-b21e-bdb1cadca8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State-Game\Gameplay">
+      <UniqueIdentifier>{4198b563-ee84-4429-b02d-bb4fa56c0573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\TinyXML">
+      <UniqueIdentifier>{f50a4638-e7fd-4694-9e98-1f14536d8460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\WindowsConsole">
+      <UniqueIdentifier>{f2816e93-4ec7-4e10-8929-d0e680245173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\Resources">
+      <UniqueIdentifier>{1b7613de-3e2a-4aa0-b64c-8c1cffe480e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State-Controller">
+      <UniqueIdentifier>{35d546f9-9d92-403e-8bbd-c036c994112b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{811ae3c2-023f-450a-8d35-be89cf8445df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Space">
+      <UniqueIdentifier>{deee2681-b7ba-407a-ba65-4e134ff4d3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Planet">
+      <UniqueIdentifier>{93ca28b2-14b1-4dc5-b5f8-0baea814b398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Rooms">
+      <UniqueIdentifier>{4b49f825-7949-48fb-a1fc-ab5af6edb787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{43641677-0d2e-4365-a0a6-9d8e67af2e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters\Player\Room">
+      <UniqueIdentifier>{156c3e3e-7a79-4771-a536-da30a357888c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State-Animation">
+      <UniqueIdentifier>{82ad1d83-d6b6-47df-9d00-f7a8a816bec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State-Animation\Player">
+      <UniqueIdentifier>{6e372579-881c-4d17-a137-ae5713910b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Explosions">
+      <UniqueIdentifier>{f87853f5-973a-436a-a601-53e8ab58b549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Music Manager">
+      <UniqueIdentifier>{13cb4e8f-c684-40ff-a6ec-f16695a5fbaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{968dfaa1-e10d-437c-a486-f5532bdbb7af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Conjunction.rc">
+      <Filter>Global\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\logo.ico">
+      <Filter>Global\Resources</Filter>
+    </None>
+    <None Include="..\readme.txt" />
+  </ItemGroup>
+</Project>

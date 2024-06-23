@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<root>
+	
+	<building id="1" name="equipment">
+		The armory will display all current weapons available to you.
+		This also includes the parts you made in the weapons factory.
+		Not only that you can customize each of your Realloc states inside this building.
+	</building>
+	
+	<building id="2" name="factory">
+		The weapons factory will display blueprints of each part.
+		Inside you will be capable of manufacturing any part you wish
+		as long as you have the mandatory requirements to make them.
+	</building>
+	
+	<building id="3" name="launch">
+		This structure takes you outer space, where you will battling with hostile contacts.
+		Be sure you are satisfied with the parts you have equipped and with your Realloc states.
+	</building>
+	
+</root>

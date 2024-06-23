@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6C0D533-6BB8-4031-BFA1-977738F08C3F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NinjasMayCry</RootNamespace>
+    <ProjectName>Conjunction</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalOptions>-Zm160 %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;CEGUIBase_d.lib;CEGUIOgreRenderer_d.lib;CEGUIExpatParser_d.lib;CEGUISILLYImageCodec_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalOptions>-Zm148 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;CEGUIBase.lib;CEGUIOgreRenderer.lib;CEGUIExpatParser.lib;CEGUISILLYImageCodec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AnimationState.cpp" />
+    <ClCompile Include="..\src\ApproachState.cpp" />
+    <ClCompile Include="..\src\AttackState.cpp" />
+    <ClCompile Include="..\src\Blueprint.cpp" />
+    <ClCompile Include="..\src\Carbon.cpp" />
+    <ClCompile Include="..\src\CompletePart.cpp" />
+    <ClCompile Include="..\src\CreditsState.cpp" />
+    <ClCompile Include="..\src\DarkMatter.cpp" />
+    <ClCompile Include="..\src\DeadState.cpp" />
+    <ClCompile Include="..\src\DieState.cpp" />
+    <ClCompile Include="..\src\Enemy.cpp" />
+    <ClCompile Include="..\src\EquipRoom.cpp" />
+    <ClCompile Include="..\src\Explosions.cpp" />
+    <ClCompile Include="..\src\FactoryBuilding.cpp" />
+    <ClCompile Include="..\src\FactoryRoom.cpp" />
+    <ClCompile Include="..\src\Game.cpp" />
+    <ClCompile Include="..\src\GameOverMenu.cpp" />
+    <ClCompile Include="..\src\GameplayState.cpp" />
+    <ClCompile Include="..\src\GameState.cpp" />
+    <ClCompile Include="..\src\GlobalVariables.cpp" />
+    <ClCompile Include="..\src\IdleState.cpp" />
+    <ClCompile Include="..\src\InteractiveBuilding.cpp" />
+    <ClCompile Include="..\src\LaunchBuilding.cpp" />
+    <ClCompile Include="..\src\Level.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\MainMenuState.cpp" />
+    <ClCompile Include="..\src\MeleeSkill.cpp" />
+    <ClCompile Include="..\src\MenuState.cpp" />
+    <ClCompile Include="..\src\MetalScrap.cpp" />
+    <ClCompile Include="..\src\MusicManager.cpp" />
+    <ClCompile Include="..\src\Part.cpp" />
+    <ClCompile Include="..\src\PassiveSkill.cpp" />
+    <ClCompile Include="..\src\PauseMenuState.cpp" />
+    <ClCompile Include="..\src\PlanetController.cpp" />
+    <ClCompile Include="..\src\PlanetGameplayState.cpp" />
+    <ClCompile Include="..\src\PlanetLevel.cpp" />
+    <ClCompile Include="..\src\PlanetPlayer.cpp" />
+    <ClCompile Include="..\src\PlanetProp.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\PlayerController.cpp" />
+    <ClCompile Include="..\src\PlayerIdleState.cpp" />
+    <ClCompile Include="..\src\PlayerShootState.cpp" />
+    <ClCompile Include="..\src\PlayerWalkState.cpp" />
+    <ClCompile Include="..\src\Projectile.cpp" />
+    <ClCompile Include="..\src\ProjectileSkill.cpp" />
+    <ClCompile Include="..\src\ReallocState.cpp" />
+    <ClCompile Include="..\src\Attributes.cpp" />
+    <ClCompile Include="..\src\Resource.cpp" />
+    <ClCompile Include="..\src\Room.cpp" />
+    <ClCompile Include="..\src\RoomBuilding.cpp" />
+    <ClCompile Include="..\src\RoomFlare.cpp" />
+    <ClCompile Include="..\src\RoomGameplayState.cpp" />
+    <ClCompile Include="..\src\RoomPlayer.cpp" />
+    <ClCompile Include="..\src\Skill.cpp" />
+    <ClCompile Include="..\src\SpaceGameplayState.cpp" />
+    <ClCompile Include="..\src\SpaceLevel.cpp" />
+    <ClCompile Include="..\src\SpacePlayer.cpp" />
+    <ClCompile Include="..\src\StateMachineBase.cpp" />
+    <ClCompile Include="..\src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\tinystr.cpp" />
+    <ClCompile Include="..\src\tinyxml.cpp" />
+    <ClCompile Include="..\src\tinyxmlerror.cpp" />
+    <ClCompile Include="..\src\tinyxmlparser.cpp" />
+    <ClCompile Include="..\src\Util.cpp" />
+    <ClCompile Include="..\src\WanderState.cpp" />
+    <ClCompile Include="..\src\WindowsConsole.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\AIStates.h" />
+    <ClInclude Include="..\src\Animations.h" />
+    <ClInclude Include="..\src\AnimationState.h" />
+    <ClInclude Include="..\src\ApproachState.h" />
+    <ClInclude Include="..\src\AttackState.h" />
+    <ClInclude Include="..\src\Blueprint.h" />
+    <ClInclude Include="..\src\Buildings.h" />
+    <ClInclude Include="..\src\Carbon.h" />
+    <ClInclude Include="..\src\CompletePart.h" />
+    <ClInclude Include="..\src\controllers.h" />
+    <ClInclude Include="..\src\CreditsState.h" />
+    <ClInclude Include="..\src\DarkMatter.h" />
+    <ClInclude Include="..\src\DeadState.h" />
+    <ClInclude Include="..\src\DieState.h" />
+    <ClInclude Include="..\src\Enemy.h" />
+    <ClInclude Include="..\src\EquipRoom.h" />
+    <ClInclude Include="..\src\Explosions.h" />
+    <ClInclude Include="..\src\FactoryBuilding.h" />
+    <ClInclude Include="..\src\FactoryRoom.h" />
+    <ClInclude Include="..\src\Game.h" />
+    <ClInclude Include="..\src\GameOverMenu.h" />
+    <ClInclude Include="..\src\GameplayState.h" />
+    <ClInclude Include="..\src\GameState.h" />
+    <ClInclude Include="..\src\gamestates.h" />
+    <ClInclude Include="..\src\GlobalVariables.h" />
+    <ClInclude Include="..\src\IdleState.h" />
+    <ClInclude Include="..\src\InteractiveBuilding.h" />
+    <ClInclude Include="..\src\LaunchBuilding.h" />
+    <ClInclude Include="..\src\Level.h" />
+    <ClInclude Include="..\src\Levels.h" />
+    <ClInclude Include="..\src\MainMenuState.h" />
+    <ClInclude Include="..\src\MeleeSkill.h" />
+    <ClInclude Include="..\src\MenuState.h" />
+    <ClInclude Include="..\src\MetalScrap.h" />
+    <ClInclude Include="..\src\MusicManager.h" />
+    <ClInclude Include="..\src\Part.h" />
+    <ClInclude Include="..\src\PassiveSkill.h" />
+    <ClInclude Include="..\src\PauseMenuState.h" />
+    <ClInclude Include="..\src\PlanetController.h" />
+    <ClInclude Include="..\src\PlanetGameplayState.h" />
+    <ClInclude Include="..\src\PlanetLevel.h" />
+    <ClInclude Include="..\src\PlanetPlayer.h" />
+    <ClInclude Include="..\src\PlanetProp.h" />
+    <ClInclude Include="..\src\Player.h" />
+    <ClInclude Include="..\src\PlayerController.h" />
+    <ClInclude Include="..\src\PlayerIdleState.h" />
+    <ClInclude Include="..\src\PlayerShootState.h" />
+    <ClInclude Include="..\src\PlayerWalkState.h" />
+    <ClInclude Include="..\src\Projectile.h" />
+    <ClInclude Include="..\src\ProjectileSkill.h" />
+    <ClInclude Include="..\src\ReallocState.h" />
+    <ClInclude Include="..\src\Attributes.h" />
+    <ClInclude Include="..\src\Resource.h" />
+    <ClInclude Include="..\src\Resources.h" />
+    <ClInclude Include="..\src\Room.h" />
+    <ClInclude Include="..\src\RoomBuilding.h" />
+    <ClInclude Include="..\src\RoomFlare.h" />
+    <ClInclude Include="..\src\RoomGameplayState.h" />
+    <ClInclude Include="..\src\RoomPlayer.h" />
+    <ClInclude Include="..\src\Rooms.h" />
+    <ClInclude Include="..\src\Skill.h" />
+    <ClInclude Include="..\src\skills.h" />
+    <ClInclude Include="..\src\SpaceGameplayState.h" />
+    <ClInclude Include="..\src\SpaceLevel.h" />
+    <ClInclude Include="..\src\SpacePlayer.h" />
+    <ClInclude Include="..\src\SpacePlayerEssentials.h" />
+    <ClInclude Include="..\src\StateMachineBase.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+    <ClInclude Include="..\src\tinystr.h" />
+    <ClInclude Include="..\src\tinyxml.h" />
+    <ClInclude Include="..\src\tinyxmls.h" />
+    <ClInclude Include="..\src\Util.h" />
+    <ClInclude Include="..\src\WanderState.h" />
+    <ClInclude Include="..\src\WindowsConsole.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Conjunction.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\logo.ico" />
+    <None Include="..\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

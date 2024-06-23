@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Game.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WindowsConsole.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GlobalVariables.cpp" />
+    <ClCompile Include="..\src\Level.cpp" />
+    <ClCompile Include="..\src\PlanetLevel.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\SpaceLevel.cpp" />
+    <ClCompile Include="..\src\PlanetPlayer.cpp" />
+    <ClCompile Include="..\src\SpacePlayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Game.h" />
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WindowsConsole.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GlobalVariables.h" />
+    <ClInclude Include="..\src\Level.h" />
+    <ClInclude Include="..\src\PlanetLevel.h" />
+    <ClInclude Include="..\src\Player.h" />
+    <ClInclude Include="..\src\SpaceLevel.h" />
+    <ClInclude Include="..\src\PlanetPlayer.h" />
+    <ClInclude Include="..\src\SpacePlayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="platform">
+      <UniqueIdentifier>{8a48deb2-2b43-46f8-92cb-abd11f1ad1c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

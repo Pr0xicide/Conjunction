@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<root>
+
+	<model mesh="pipe.mesh" material="PipeUV"></model>
+	<model mesh="rock_sample1.mesh" material="rock_sample1"></model>
+	<model mesh="rock_sample2.mesh" material="rock_sample2"></model>
+	<model mesh="rock_sample3.mesh" material="rock_sample3"></model>
+	<model mesh="rock_sample4.mesh" material="rock_sample4"></model>
+	
+</root>

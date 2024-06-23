@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Level.cpp">
+      <Filter>Level State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlanetLevel.cpp">
+      <Filter>Level State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GlobalVariables.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp" />
+    <ClCompile Include="..\src\WindowsConsole.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EditorController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BaseController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameObject.cpp">
+      <Filter>Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InteractiveBuilding.cpp">
+      <Filter>Interactive Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LaunchBuilding.cpp">
+      <Filter>Interactive Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactoryBuilding.cpp">
+      <Filter>Interactive Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomBuilding.cpp">
+      <Filter>Interactive Buildings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Level.h">
+      <Filter>Level State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlanetLevel.h">
+      <Filter>Level State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GlobalVariables.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game.h" />
+    <ClInclude Include="..\src\WindowsConsole.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EditorController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BaseController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controllers.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Levels.h">
+      <Filter>Level State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObject.h">
+      <Filter>Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InteractiveBuilding.h">
+      <Filter>Interactive Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LaunchBuilding.h">
+      <Filter>Interactive Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Buildings.h">
+      <Filter>Interactive Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FactoryBuilding.h">
+      <Filter>Interactive Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomBuilding.h">
+      <Filter>Interactive Buildings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Global">
+      <UniqueIdentifier>{7f080e0a-ecd6-47fb-8da1-171376558c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level State">
+      <UniqueIdentifier>{fd92bc75-4efa-4ded-b4e0-b34e05b8b307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{75c24f19-008d-499d-a2ee-879df79dc028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{c58beb5d-82c9-40c7-9325-c0bddc2452db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object">
+      <UniqueIdentifier>{ce1cfbb4-3a46-450d-8be9-6ba98c8cdd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interactive Buildings">
+      <UniqueIdentifier>{a9de275e-5aa1-47b3-8756-1b032a91d1d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

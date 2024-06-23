@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<root>
+    <!-- Row #1 -->
+    <projpart name="Balaena" mesh="shoulder_Balaena.mesh" type="4" stat="20" skill="Charge" stype="1" size="5" material="Flare6" speed="350" accel="0" r="1" g="0" b="0" life="7" />
+    <projpart name="Dragoon" mesh="shoulder_Dragoon.mesh" type="4" stat="25" skill="Blast" stype="1" size="8" material="Flare" speed="300" accel="0" r="0" g="0" b="1" life="10" />
+    <projpart name="Lupus" mesh="shoulder_Lupus.mesh" type="4" stat="20" skill="Scorch" stype="1" size="5" material="Flare" speed="350" accel="0" r="0" g="1" b="0" life="6" />
+    <projpart name="Picador" mesh="shoulder_Picador.mesh" type="4" stat="30" skill="Blast" stype="1" size="5" material="Flare" speed="300" accel="0" r="0" g="1" b="1" life="6" />
+    <projpart name="Photon Cannon" mesh="shoulder_photon_cannon.mesh" type="4" stat="5" skill="Blast" stype="1" size="5" material="Flare" speed="1000" accel="0" r="1" g="1" b="0" life="6" />
+    <projpart name="Sagittus" mesh="shoulder_Sagittus.mesh" type="4" stat="30" skill="Blast" stype="1" size="5" material="Flare3" speed="200" accel="0" r="0" g="0" b="1" life="6" />
+    <projpart name="Sound Blaster" mesh="shoulder_sound_blaster.mesh" type="4" stat="25" skill="Blast" stype="1" size="5" material="Flare4" speed="550" accel="0" r="1" g="0" b="1" life="6" />
+    <projpart name="Missile Launcher" mesh="shoulder_missile_launcher.mesh" type="4" stat="15" skill="Blast" stype="1" size="5" material="Flare" speed="350" accel="0" r="1" g="1" b="1" life="6" />
+    <projpart name="Amalger" mesh="shoulder_Amalger.mesh" type="4" stat="17" skill="Blast" stype="1" size="5" material="Flare3" speed="200" accel="0" r="1" g="0" b="0" life="6" />
+    <!-- Row #2 -->
+    <projpart name="Balaena" mesh="shoulder_Balaena.mesh" type="5" stat="20" skill="Charge" stype="1" size="5" material="Flare6" speed="350" accel="0" r="1" g="0" b="0" life="7" />
+    <projpart name="Dragoon" mesh="shoulder_Dragoon.mesh" type="5" stat="25" skill="Blast" stype="1" size="8" material="Flare" speed="300" accel="0" r="0" g="0" b="1" life="10" />
+    <projpart name="Lupus" mesh="shoulder_Lupus.mesh" type="5" stat="20" skill="Scorch" stype="1" size="5" material="Flare" speed="350" accel="0" r="0" g="1" b="0" life="6" />
+    <projpart name="Picador" mesh="shoulder_Picador.mesh" type="5" stat="30" skill="Blast" stype="1" size="5" material="Flare" speed="300" accel="0" r="0" g="1" b="1" life="6" />
+    <projpart name="Photon Cannon" mesh="shoulder_photon_cannon.mesh" type="5" stat="5" skill="Blast" stype="1" size="5" material="Flare" speed="1000" accel="0" r="1" g="1" b="0" life="6" />
+    <projpart name="Sagittus" mesh="shoulder_Sagittus.mesh" type="5" stat="30" skill="Blast" stype="1" size="5" material="Flare3" speed="200" accel="0" r="0" g="0" b="1" life="6" />
+    <projpart name="Sound Blaster" mesh="shoulder_sound_blaster.mesh" type="5" stat="25" skill="Blast" stype="1" size="5" material="Flare4" speed="550" accel="0" r="1" g="0" b="1" life="6" />
+    <projpart name="Missile Launcher" mesh="shoulder_missile_launcher.mesh" type="5" stat="15" skill="Blast" stype="1" size="5" material="Flare" speed="350" accel="0" r="1" g="1" b="1" life="6" />
+    <projpart name="Amalger" mesh="shoulder_Amalger.mesh" type="5" stat="17" skill="Blast" stype="1" size="5" material="Flare3" speed="200" accel="0" r="1" g="0" b="0" life="6" />
+    <!-- Row #3 -->
+    <projpart name="Arm Barrel" mesh="Barrel.mesh" type="3" stat="15" skill="BarrelBlaster" stype="1" size="4" material="Flare" speed="400" accel="0" r="0" g="1" b="0" life="5" />
+    <projpart name="Arm Barrel" mesh="Barrel.mesh" type="2" stat="15" skill="BarrelBlaster" stype="1" size="4" material="Flare" speed="400" accel="0" r="0" g="1" b="0" life="5" />
+    <paspart name="Ogre Helmet" mesh="ogrehead.mesh" type="1" stat="20" skill="OgreDefense" stype="2" />
+    <paspart name="Penguin Helmet" mesh="penguin.mesh" type="1" stat="10" skill="PenguinDefense" stype="2" />
+    <projpart name="Aqua Barrel" mesh="Barrel.mesh" type="2" stat="55" skill="Blast" stype="1" size="5" material="Flare3" speed="100" accel="0" r="0" g="0" b="1" life="6" />
+    <projpart name="Aqua Barrel" mesh="Barrel.mesh" type="3" stat="55" skill="Blast" stype="1" size="5" material="Flare3" speed="100" accel="0" r="0" g="0" b="1" life="6" />
+    <projpart name="Penguin Blaster" mesh="penguin.mesh" type="2" stat="10" skill="Blast" stype="1" size="5" material="Flare2" speed="777" accel="0" r="1" g="1" b="0" life="3" />
+    <projpart name="Penguin Blaster" mesh="penguin.mesh" type="3" stat="10" skill="Blast" stype="1" size="5" material="Flare2" speed="777" accel="0" r="1" g="1" b="0" life="3" />
+    <projpart name="Psycommu" mesh="ogrehead.mesh" type="2" stat="15" skill="Blast" stype="1" size="5" material="Flare4" speed="100" accel="0" r="1" g="0" b="1" life="4" />
+    <!-- Row #4 -->
+    <projpart name="Psycommu" mesh="ogrehead.mesh" type="3" stat="15" skill="Blast" stype="1" size="5" material="Flare4" speed="100" accel="0" r="0" g="0" b="1" life="4" />
+    <projpart name="BFG" mesh="Barrel.mesh" type="2" stat="19" skill="Blast" stype="1" size="5" material="Flare5" speed="200" accel="0" r="0" g="1" b="1" life="6" />
+    <projpart name="BFG" mesh="Barrel.mesh" type="3" stat="19" skill="Blast" stype="1" size="5" material="Flare5" speed="200" accel="0" r="0" g="1" b="1" life="6" />
+</root>

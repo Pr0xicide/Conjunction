@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+
+<player>
+
+	<planetTutorial active="1" file="planet.xml" ></planetTutorial>
+	<spaceTutorial active="1" file="space.xml" ></planetTutorial>
+	<equipmentTutorial active="1" file="equipment.xml"></roomtutorial>
+	<factoryTutorial active="1" file="factory.xml"></factoryTutorial>
+	
+</player>
+ 

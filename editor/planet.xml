@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<root>
+    <object mesh="rock_sample4.mesh" material="rock_sample4" scale="1" pitch="-176.95" yaw="180" roll="0" />
+    <object mesh="rock_sample3.mesh" material="rock_sample3" scale="1" pitch="161.35" yaw="176.126" roll="49.0911" />
+    <object mesh="rock_sample3.mesh" material="rock_sample3" scale="1" pitch="64.5333" yaw="60.5176" roll="12.4676" />
+    <object mesh="pipe.mesh" material="PipeUV" scale="1" pitch="-93.2365" yaw="-137.616" roll="86.8261" />
+    <object mesh="pipe.mesh" material="PipeUV" scale="1" pitch="-88.5345" yaw="-68.6873" roll="86.8261" />
+    <object mesh="rock_sample2.mesh" material="rock_sample2" scale="1" pitch="127.464" yaw="175.336" roll="-38.7509" />
+    <object mesh="rock_sample3.mesh" material="rock_sample3" scale="1" pitch="103.027" yaw="-177.115" roll="-1.78778" />
+    <object mesh="rock_sample1.mesh" material="rock_sample1" scale="1" pitch="-65.5015" yaw="-103.605" roll="71.2918" />
+    <object mesh="rock_sample3.mesh" material="rock_sample3" scale="1" pitch="-97.3346" yaw="-19.0336" roll="136.679" />
+</root>

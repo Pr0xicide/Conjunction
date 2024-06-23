@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<root>
+
+	<!--Parts with 4 extra attributes such as this, are blueprints. -->
+	<melbprint name="knot1" mesh="robot.mesh" type="2" stat="20" skill="KnotTie" stype="0" metal="20" darkmatter="0" carbon="10"></melbprint>
+	
+	<projpart name="Plasma Cannon" mesh="shoulder_PlasmaCannon.mesh" metal="60" darkmatter="75" carbon="20" type="4" stat="19" skill="Blast" stype="1" size="5" material="Flare3" speed="850" accel="0" r="0" g="1" b="1" life="3" />
+	<projpart name="Plasma Cannon" mesh="shoulder_PlasmaCannon.mesh" metal="60" darkmatter="75" carbon="20" type="5" stat="19" skill="Blast" stype="1" size="5" material="Flare3" speed="850" accel="0" r="0" g="1" b="1" life="3" />
+
+	<projpart name="Railgun" mesh="shoulder_Railgun.mesh" metal="150" darkmatter="25" carbon="150" type="4" stat="25" skill="Blast" stype="1" size="2" material="Flare" speed="600" accel="0" r="0" g="1" b="0" life="10" />
+	<projpart name="Railgun" mesh="shoulder_Railgun.mesh" metal="150" darkmatter="25" carbon="150" type="5" stat="25" skill="Blast" stype="1" size="2" material="Flare" speed="600" accel="0" r="0" g="1" b="0" life="10" />
+	
+</root>
